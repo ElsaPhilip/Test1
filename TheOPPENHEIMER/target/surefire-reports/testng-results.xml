@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="378202" started-at="2022-02-22T16:52:31 SGT" finished-at="2022-02-22T16:58:49 SGT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="378202" started-at="2022-02-22T16:52:31 SGT" finished-at="2022-02-22T16:58:49 SGT">
+      <class name="cucumberOptions.TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="setUpClass" is-config="true" duration-ms="764" started-at="2022-02-22T16:52:31 SGT" finished-at="2022-02-22T16:52:32 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56f84c9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="19183" started-at="2022-02-22T16:52:32 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:52:51 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the Displense Now button availability and the functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="16426" started-at="2022-02-22T16:52:51 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:53:07 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the CSV fileupload function with a valid data and validate the records are added"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="19200" started-at="2022-02-22T16:53:07 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:53:27 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the CSV fileupload function with an invalid data and validate the record is added"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="21249" started-at="2022-02-22T16:53:27 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:53:48 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the natid field is masked from the 5th character onwards"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="12101" started-at="2022-02-22T16:53:48 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:00 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10179" started-at="2022-02-22T16:54:00 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:10 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="13462" started-at="2022-02-22T16:54:10 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:24 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="12262" started-at="2022-02-22T16:54:24 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:36 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="11609" started-at="2022-02-22T16:54:36 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:47 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10770" started-at="2022-02-22T16:54:47 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:54:58 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="14728" started-at="2022-02-22T16:54:58 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:55:13 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="11420" started-at="2022-02-22T16:55:13 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:55:24 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="11781" started-at="2022-02-22T16:55:24 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:55:36 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10730" started-at="2022-02-22T16:55:36 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:55:47 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10860" started-at="2022-02-22T16:55:47 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:55:58 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="12786" started-at="2022-02-22T16:55:58 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:56:10 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="14355" started-at="2022-02-22T16:56:10 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:56:25 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="12420" started-at="2022-02-22T16:56:25 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:56:37 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10275" started-at="2022-02-22T16:56:37 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:56:48 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="11159" started-at="2022-02-22T16:56:48 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:56:59 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="13188" started-at="2022-02-22T16:56:59 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:57:12 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="12946" started-at="2022-02-22T16:57:12 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:57:25 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="11474" started-at="2022-02-22T16:57:25 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:57:36 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="13778" started-at="2022-02-22T16:57:36 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:57:50 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="10588" started-at="2022-02-22T16:57:50 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:58:01 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="9872" started-at="2022-02-22T16:58:01 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:58:11 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="9947" started-at="2022-02-22T16:58:11 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:58:20 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="13414" started-at="2022-02-22T16:58:20 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:58:34 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To chek the taxrelief amount verification for the records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="runScenario" duration-ms="14736" started-at="2022-02-22T16:58:34 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-22T16:58:49 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check the Tax amount displayed is correct"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking working class heroes tax relief]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@46daef40]" name="tearDownClass" is-config="true" duration-ms="485" started-at="2022-02-22T16:58:49 SGT" finished-at="2022-02-22T16:58:49 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

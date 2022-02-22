@@ -1,0 +1,202 @@
+{
+	"id": "d3e172d9-07da-40fa-a684-511ac43d6b39",
+	"name": "Insert User",
+	"timestamp": "2022-02-22T07:30:33.158Z",
+	"collection_id": "19380346-e4dfef58-2bfb-4239-aa22-0da481219be0",
+	"folder_id": 0,
+	"environment_id": "b9ef382e-76df-488c-a7f6-a9461a0f71b0",
+	"totalPass": 10,
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "d6393699-b11d-48c8-92ff-5acaa823e0be",
+			"name": "Single user",
+			"url": "http://localhost:8080/calculator/insert",
+			"time": 9,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Successful POST request": true,
+				"Status code name has string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				}
+			]
+		},
+		{
+			"id": "2454b730-894b-4c13-8449-805d3c8993df",
+			"name": "Multiple USer",
+			"url": "http://localhost:8080/calculator/insertMultiple",
+			"time": 12,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 200ms": true,
+				"Successful POST request": true,
+				"Status code name has string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 200ms": true,
+					"Successful POST request": true,
+					"Status code name has string": false
+				}
+			]
+		},
+		{
+			"id": "69da36e0-daf5-46d3-b85b-2c313e24680f",
+			"name": "Get tax relief",
+			"url": "http://localhost:8080/calculator/taxRelief",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code name has string": true,
+				"Status code is 200": true,
+				"Name found": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name found": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Name found": false
+				}
+			]
+		},
+		{
+			"id": "24f421f1-9760-4fcc-8b7a-6078c9a1d316",
+			"name": "Get totalTaxReliefAmount",
+			"url": "http://localhost:8080/calculator/taxReliefSummary",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code name has string": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code name has string": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 48,
+	"collection": {
+		"requests": [
+			{
+				"id": "d6393699-b11d-48c8-92ff-5acaa823e0be",
+				"method": "POST"
+			},
+			{
+				"id": "2454b730-894b-4c13-8449-805d3c8993df",
+				"method": "POST"
+			},
+			{
+				"id": "69da36e0-daf5-46d3-b85b-2c313e24680f",
+				"method": "GET"
+			},
+			{
+				"id": "24f421f1-9760-4fcc-8b7a-6078c9a1d316",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="cucumberOptions.TestNGTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1 0 9 8 5 4 7 6 3 10 11 12 14 13 16 15 17 19 21 22 20 24 23"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

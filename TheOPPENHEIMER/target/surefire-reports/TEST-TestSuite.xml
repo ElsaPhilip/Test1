@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="379.004" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER//src//test//resources//chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER\target\test-classes;C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER\target\classes;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\2119473\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\2119473\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\2119473\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\2119473\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2119473\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.2.0\extentreports-cucumber7-adapter-1.2.0.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.4\extent-pdf-report-1.7.4.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.4\cucumber-pdf-report-2.2.4.jar;C:\Users\2119473\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\2119473\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\2119473\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2119473\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2119473\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2119473\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2119473\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\2119473\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\2119473\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\2119473\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2119473\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2119473\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2119473\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2119473\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\2119473\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\2119473\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\2119473\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\2119473\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\2119473\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\2119473\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-picocontainer\7.2.3\cucumber-picocontainer-7.2.3.jar;C:\Users\2119473\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\2119473\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\2119473\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\2119473\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\2119473\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\2119473\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2119473\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2119473\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\2119473\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\2119473\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\2119473\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar;C:\Users\2119473\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2119473\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\2119473\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\2119473\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\2119473\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\2119473\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar;C:\Users\2119473\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_321\bin"/>
+    <property name="sun.java.command" value="C:\Users\2119473\AppData\Local\Temp\surefire5501059138824533382\surefirebooter408196983428885229.jar C:\Users\2119473\AppData\Local\Temp\surefire5501059138824533382 2022-02-22T16-52-28_600-jvmRun1 surefire8682222355042484423tmp surefire_05987226494735556693tmp"/>
+    <property name="surefire.test.class.path" value="C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER\target\test-classes;C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER\target\classes;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\2119473\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\2119473\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\2119473\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\2119473\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\2119473\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2119473\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.2.0\extentreports-cucumber7-adapter-1.2.0.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.4\extent-pdf-report-1.7.4.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.4\cucumber-pdf-report-2.2.4.jar;C:\Users\2119473\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\2119473\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\2119473\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2119473\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2119473\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2119473\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2119473\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\2119473\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\2119473\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\2119473\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2119473\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2119473\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2119473\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2119473\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\2119473\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2119473\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\2119473\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\2119473\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\2119473\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\2119473\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\2119473\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\2119473\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-picocontainer\7.2.3\cucumber-picocontainer-7.2.3.jar;C:\Users\2119473\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\2119473\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\2119473\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\2119473\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\2119473\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\2119473\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\2119473\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2119473\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2119473\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2119473\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\2119473\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\2119473\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\2119473\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar;C:\Users\2119473\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar;C:\Users\2119473\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\2119473\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar;C:\Users\2119473\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2119473\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\2119473\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\2119473\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\2119473\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\2119473\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\2119473\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\2119473\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar;C:\Users\2119473\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\2119473\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2119473"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_321"/>
+    <property name="basedir" value="C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\2119473\AppData\Local\Temp\surefire5501059138824533382\surefirebooter408196983428885229.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_321\lib\resources.jar;C:\Program Files\Java\jre1.8.0_321\lib\rt.jar;C:\Program Files\Java\jre1.8.0_321\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_321\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_321\lib\jce.jar;C:\Program Files\Java\jre1.8.0_321\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_321\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_321\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="user.name" value="2119473"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_321\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\2119473\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2119473\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="user.dir" value="C:\Elsa\Eclipse WorkSpace\TheOPPENHEIMER"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_321\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files (x86)\git-cola\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\2119473\AppData\Local\Microsoft\WindowsApps;C:\Users\2119473\AppData\Roaming\npm;C:\Training\Softwares\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_321\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;To check the Displense Now button availability and the functionality&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](1)" classname="cucumberOptions.TestNGTestRunner" time="19.211">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 53117
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:52:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:52:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To check the CSV fileupload function with a valid data and validate the records are added&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](2)" classname="cucumberOptions.TestNGTestRunner" time="16.424">
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 54728
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:52:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:52:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To check the CSV fileupload function with an invalid data and validate the record is added&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](3)" classname="cucumberOptions.TestNGTestRunner" time="19.198">
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 51124
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:53:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:53:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To check the natid field is masked from the 5th character onwards&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](4)" classname="cucumberOptions.TestNGTestRunner" time="21.248">
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 58680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:53:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:53:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](5)" classname="cucumberOptions.TestNGTestRunner" time="12.099">
+    <system-out><![CDATA[123111
+TaxReliefFromGUI from method7000.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 49689
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:53:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:53:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](6)" classname="cucumberOptions.TestNGTestRunner" time="10.18">
+    <system-out><![CDATA[124111
+TaxReliefFromGUI from method7000.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 63147
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:54:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:54:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](7)" classname="cucumberOptions.TestNGTestRunner" time="13.462">
+    <system-out><![CDATA[125111
+TaxReliefFromGUI from method5600.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 51826
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:54:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:54:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](8)" classname="cucumberOptions.TestNGTestRunner" time="12.262">
+    <system-out><![CDATA[126111
+TaxReliefFromGUI from method5600.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50126
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:54:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:54:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](9)" classname="cucumberOptions.TestNGTestRunner" time="11.62">
+    <system-out><![CDATA[127111
+TaxReliefFromGUI from method5600.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 53237
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:54:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:54:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](10)" classname="cucumberOptions.TestNGTestRunner" time="10.759">
+    <system-out><![CDATA[128111
+TaxReliefFromGUI from method3500.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 58242
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:54:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:54:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](11)" classname="cucumberOptions.TestNGTestRunner" time="14.728">
+    <system-out><![CDATA[129111
+TaxReliefFromGUI from method3500.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 49459
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:55:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:55:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](12)" classname="cucumberOptions.TestNGTestRunner" time="11.419">
+    <system-out><![CDATA[130111
+TaxReliefFromGUI from method3500.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 63683
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:55:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:55:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](13)" classname="cucumberOptions.TestNGTestRunner" time="11.782">
+    <system-out><![CDATA[131111
+TaxReliefFromGUI from method2569.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 54256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:55:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:55:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](14)" classname="cucumberOptions.TestNGTestRunner" time="10.73">
+    <system-out><![CDATA[132111
+TaxReliefFromGUI from method2569.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 59961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:55:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:55:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](15)" classname="cucumberOptions.TestNGTestRunner" time="10.86">
+    <system-out><![CDATA[133111
+TaxReliefFromGUI from method2569.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 55493
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:55:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:55:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](16)" classname="cucumberOptions.TestNGTestRunner" time="12.787">
+    <system-out><![CDATA[134111
+TaxReliefFromGUI from method350.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 54868
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:56:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:56:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](17)" classname="cucumberOptions.TestNGTestRunner" time="14.358">
+    <system-out><![CDATA[223111
+TaxReliefFromGUI from method7500.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50823
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:56:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:56:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](18)" classname="cucumberOptions.TestNGTestRunner" time="12.417">
+    <system-out><![CDATA[224111
+TaxReliefFromGUI from method7500.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50277
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:56:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:56:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](19)" classname="cucumberOptions.TestNGTestRunner" time="10.275">
+    <system-out><![CDATA[225111
+TaxReliefFromGUI from method6100.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 65379
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:56:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:56:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](20)" classname="cucumberOptions.TestNGTestRunner" time="11.159">
+    <system-out><![CDATA[226111
+TaxReliefFromGUI from method6100.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 52541
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:56:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:56:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](21)" classname="cucumberOptions.TestNGTestRunner" time="13.189">
+    <system-out><![CDATA[227111
+TaxReliefFromGUI from method6100.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 62820
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:57:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:57:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](22)" classname="cucumberOptions.TestNGTestRunner" time="12.946">
+    <system-out><![CDATA[228111
+TaxReliefFromGUI from method4000.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 61482
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:57:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:57:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](23)" classname="cucumberOptions.TestNGTestRunner" time="11.475">
+    <system-out><![CDATA[229111
+TaxReliefFromGUI from method4000.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 53529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:57:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:57:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](24)" classname="cucumberOptions.TestNGTestRunner" time="13.777">
+    <system-out><![CDATA[230111
+TaxReliefFromGUI from method4000.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50158
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:57:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:57:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](25)" classname="cucumberOptions.TestNGTestRunner" time="10.587">
+    <system-out><![CDATA[231111
+TaxReliefFromGUI from method3069.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 51571
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:57:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:57:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](26)" classname="cucumberOptions.TestNGTestRunner" time="9.872">
+    <system-out><![CDATA[232111
+TaxReliefFromGUI from method3069.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 50738
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:58:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:58:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](27)" classname="cucumberOptions.TestNGTestRunner" time="9.947">
+    <system-out><![CDATA[233111
+TaxReliefFromGUI from method3069.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 49821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:58:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:58:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To chek the taxrelief amount verification for the records&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](28)" classname="cucumberOptions.TestNGTestRunner" time="13.415">
+    <system-out><![CDATA[234111
+TaxReliefFromGUI from method850.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 60885
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:58:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:58:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To check the Tax amount displayed is correct&quot;, &quot;Optional[Checking working class heroes tax relief]&quot;](29)" classname="cucumberOptions.TestNGTestRunner" time="14.738">
+    <system-out><![CDATA[Amount from  GetTaxAmountFromText()77316934.00
+49000.0
+147000.0
+196000.0
+5295510.0
+1.039502E7
+1.549453E7
+1.550153E7
+1.550853E7
+1.551413E7
+1.551973E7
+1.552533E7
+1.552883E7
+1.553233E7
+1.553583E7
+1.5538399E7
+1.5540968E7
+1.5543537E7
+1.5543887E7
+1.5551387E7
+1.5558887E7
+1.5564987E7
+1.5571087E7
+1.5577187E7
+1.5581187E7
+1.5585187E7
+1.5589187E7
+1.5592256E7
+1.5595325E7
+1.5598394E7
+1.5599244E7
+1.5606244E7
+1.5613244E7
+1.5618844E7
+1.5624444E7
+1.5630044E7
+1.5633544E7
+1.5637044E7
+1.5640544E7
+1.5643113E7
+1.5645682E7
+1.5648251E7
+1.5648601E7
+1.5656101E7
+1.5663601E7
+1.5669701E7
+1.5675801E7
+1.5681901E7
+1.5685901E7
+1.5689901E7
+1.5693901E7
+1.569697E7
+1.5700039E7
+1.5703108E7
+1.5703958E7
+1.5710958E7
+1.5717958E7
+1.5723558E7
+1.5729158E7
+1.5734758E7
+1.5738258E7
+1.5741758E7
+1.5745258E7
+1.5747827E7
+1.5750396E7
+1.5752965E7
+1.5753315E7
+1.5760815E7
+1.5768315E7
+1.5774415E7
+1.5780515E7
+1.5786615E7
+1.5790615E7
+1.5794615E7
+1.5798615E7
+1.5801684E7
+1.5804753E7
+1.5807822E7
+1.5808672E7
+2.0908182E7
+2.6007692E7
+3.1107202E7
+3.6206712E7
+4.1306222E7
+4.6405732E7
+5.1505242E7
+5.6604752E7
+6.1704262E7
+6.1711262E7
+6.1718262E7
+6.1723862E7
+6.1729462E7
+6.1735062E7
+6.1738562E7
+6.1742062E7
+6.1745562E7
+6.1748131E7
+6.17507E7
+6.1753269E7
+6.1753619E7
+6.1761119E7
+6.1768619E7
+6.1774719E7
+6.1780819E7
+6.1786919E7
+6.1790919E7
+6.1794919E7
+6.1798919E7
+6.1801988E7
+6.1805057E7
+6.1808126E7
+6.1808976E7
+6.6908486E7
+7.2007996E7
+7.7107506E7
+7.7114506E7
+7.7121506E7
+7.7127106E7
+7.7132706E7
+7.7138306E7
+7.7141806E7
+7.7145306E7
+7.7148806E7
+7.7151375E7
+7.7153944E7
+7.7156513E7
+7.7156863E7
+7.7164363E7
+7.7171863E7
+7.7177963E7
+7.7184063E7
+7.7190163E7
+7.7194163E7
+7.7198163E7
+7.7202163E7
+7.7205232E7
+7.7208301E7
+7.721137E7
+7.721222E7
+7.721922E7
+7.722622E7
+7.723182E7
+7.723742E7
+7.724302E7
+7.724652E7
+7.725002E7
+7.725352E7
+7.7256089E7
+7.7258658E7
+7.7261227E7
+7.7261577E7
+7.7269077E7
+7.7276577E7
+7.7282677E7
+7.7288777E7
+7.7294877E7
+7.7298877E7
+7.7302877E7
+7.7306877E7
+7.7309946E7
+7.7313015E7
+7.7316084E7
+7.7316934E7
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 64413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 22, 2022 4:58:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 22, 2022 4:58:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+</testsuite>

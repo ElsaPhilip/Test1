@@ -1,0 +1,198 @@
+{
+	"id": "211a6834-e386-477c-8bec-6c498e7be705",
+	"name": "Multiple User",
+	"timestamp": "2022-02-22T07:33:09.230Z",
+	"collection_id": "19380346-3601e975-e879-4a11-a6a3-c17dfa759906",
+	"folder_id": 0,
+	"environment_id": "b9ef382e-76df-488c-a7f6-a9461a0f71b0",
+	"totalPass": 48,
+	"totalFail": 48,
+	"results": [
+		{
+			"id": "61f5dc25-55a1-4e12-a621-0dab3eb6905b",
+			"name": "Single User-DataFile",
+			"time": 7,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Successful POST request": true,
+				"Status code name has string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 24
+				},
+				"Successful POST request": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 23,
+					"fail": 24
+				}
+			},
+			"times": [
+				8,
+				6,
+				7,
+				7,
+				7,
+				7,
+				7,
+				6,
+				6,
+				8,
+				7,
+				7,
+				6,
+				9,
+				6,
+				6,
+				8,
+				6,
+				6,
+				8,
+				10,
+				7,
+				6,
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				},
+				{
+					"Status code is 200": false,
+					"Successful POST request": true,
+					"Status code name has string": false
+				}
+			]
+		}
+	],
+	"count": 24,
+	"totalTime": 168,
+	"collection": {
+		"requests": [
+			{
+				"id": "61f5dc25-55a1-4e12-a621-0dab3eb6905b",
+				"method": "POST"
+			}
+		]
+	}
+}
